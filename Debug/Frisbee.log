@@ -1,0 +1,6 @@
+﻿  MainMenu.cpp
+src\MainMenu.cpp(120): warning C4482: nonstandard extension used: enum 'osgText::TextBase::AlignmentType' used in qualified name
+  Shoot.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  Generating code
+  Finished generating code
+  Frisbee.vcxproj -> C:\Home\WorkStation\GraphicsWorkspace\ProjectFast\Debug\Project Fast.exe
