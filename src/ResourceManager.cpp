@@ -15,8 +15,10 @@ void ResourceManager::setDirectory(std::string directory){
 
 void ResourceManager::preload(std::string resource){
 	osg::Node* node = osgDB::readNodeFile(directory + resource + ".obj");
-	node->addDescription(resource);
-	resources[directory + resource] = node; 
+	if (node != nullptr){
+		node->addDescription(resource);
+		resources[directory + resource] = node; 
+	}
 }
 
 osg::Node* ResourceManager::getTo(std::string resource){
